@@ -7,11 +7,15 @@ body{
 main{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .container{
     background-color: #FFFFFF;
     width:870px;
     padding: 30px;
+    margin-top: 21px;
+    border-radius: 7px;
 }
 hr{
     border: 1px solid #D1D1D1;
@@ -77,3 +81,8 @@ hr{
     font-size: 16px;
     color: #562EFF;
 }
+ /* latest course start  */
+ .course-banner img{
+    width: 224px;
+    height: 104px;
+ }
