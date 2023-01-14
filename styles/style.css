@@ -82,7 +82,44 @@ hr{
     color: #562EFF;
 }
  /* latest course start  */
+ .courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: ;
+ }
+ 
  .course-banner img{
     width: 224px;
     height: 104px;
+ }
+ .course-author{
+    color:#ED6B4F;
+ }
+ .course-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+ }
+ .course-info .star{
+    margin-right: 10px;
+ }
+ .course-info p{
+    color: #868181;
+    margin-right: 18px;
+ }
+ .course-duration{
+    color: #FF4A60;
+    padding: 3px 5px;
+    background-color: #FFE4E8;
+    border-radius: 15px;
+ }
+ .fa-star{
+    font-size: 12px;
+ }
+ .fa-star.fill{
+    color: #ec950a;
+ }
+ .fa-star.empty{
+    color: #b6adad;
  }
